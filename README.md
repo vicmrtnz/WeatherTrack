@@ -102,21 +102,20 @@ The application is deployed on Render. You can access it at: WeatherTrack
 Folder Structure
 
 WeatherTrack
-├── Develop
-│   ├── client
-│   │   ├── public
-│   │   ├── src
-│   │   ├── styles
-│   │   ├── index.html
-│   │   └── vite.config.json
-│   ├── server
-│   │   ├── db
-│   │   ├── src
-│   │   │   ├── routes
-│   │   │   ├── service
-│   │   │   └── server.ts
-│   │   ├── .env.example
-│   │   └── package.json
+├── client
+│   ├── public
+│   ├── src
+│   ├── styles
+│   ├── index.html
+│   └── vite.config.json
+├── server
+│   ├── db
+│   ├── src
+│   │   ├── routes
+│   │   ├── service
+│   │   └── server.ts
+│   ├── .env.example
+│   └── package.json
 ├── .gitignore
 ├── README.md
 └── package.json
