@@ -1,0 +1,14 @@
+{
+  "name": "develop",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node server/src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.4",
+    "ts-node": "^10.4.0"
+  }
+}
